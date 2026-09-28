@@ -77,7 +77,7 @@ document.addEventListener('click', function(event) {
   if (typeof fbq === 'function') fbq('track', 'Lead');
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.target === '_blank') return;
   event.preventDefault();
-  setTimeout(() => location.assign(link.href), 200);
+  setTimeout(() => location.assign(link.href), 300);
 });
 </script>`;
   html = html.replace('</body>', leadClicks + '</body>');
