@@ -16,6 +16,6 @@
 
 ## Meta Pixel
 
-页面使用像素 ID `585106496384924` 记录 `PageView`；访客点击 5 个 Amazon 购买按钮时记录 Meta 标准事件 `Lead`。日夜切换、页内导航和编辑器操作不会记录为 `Lead`。可在 Meta Events Manager 的“测试事件”中验证；浏览器拦截追踪脚本时事件可能不会发送。
+页面使用像素 ID `585106496384924` 打开页面时记录 `PageView` 和 `ViewContent`；访客点击 5 个 Amazon 购买按钮时记录 Meta 标准事件 `Lead`。日夜切换、页内导航和编辑器操作不会记录为 `Lead`。可在 Meta Events Manager 的“测试事件”中验证；浏览器拦截追踪脚本时事件可能不会发送。
 
 Cloudflare 官方说明：[Direct Upload](https://developers.cloudflare.com/pages/get-started/direct-upload/) · [Static HTML](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)
